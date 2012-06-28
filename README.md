@@ -1,6 +1,6 @@
 # Generate Gravatar URLs in RubyMotion
 
-Generate the URL for a user's Gravatar image by providing an email address, image size, and optional default image URL.
+Generate the URL for a user's [Gravatar](http://gravatar.com) image by providing an email address, image size, and optional default image URL.
 
 # Install
 
