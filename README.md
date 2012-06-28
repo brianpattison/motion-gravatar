@@ -9,7 +9,7 @@ Gemfile
 ```ruby
 source :rubygems
 
-gem 'motion-gravatar', :git => 'git://github.com/brianpattison/motion-gravatar.git'
+gem 'motion-gravatar'
 ```
 
 Run `bundle install`.
