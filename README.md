@@ -6,7 +6,7 @@ Generate the URL for a user's Gravatar image by providing an email address, imag
 
 Use Bundler to manage gems in RubyMotion.
 
-Rakefile
+**Rakefile**
 
 ```ruby
 $:.unshift("/Library/RubyMotion/lib")
@@ -20,7 +20,7 @@ Motion::Project::App.setup do |app|
 end
 ```
 
-Gemfile
+**Gemfile**
 
 ```ruby
 source :rubygems
