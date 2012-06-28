@@ -8,5 +8,5 @@ Gem::Specification.new do |gem|
   gem.files         = `git ls-files`.split($\)
   gem.name          = "motion-gravatar"
   gem.require_paths = ["lib"]
-  gem.version       = '0.0.1'
+  gem.version       = '0.0.2'
 end
