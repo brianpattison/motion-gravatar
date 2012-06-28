@@ -1,0 +1,231 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D3FFB45A159BE4B800541F99 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3FFB459159BE4B800541F99 /* Foundation.framework */; };
+		D3FFB460159BE4B800541F99 /* GravatarHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = D3FFB45F159BE4B800541F99 /* GravatarHelper.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D3FFB456159BE4B800541F99 /* libGravatarHelper.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libGravatarHelper.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3FFB459159BE4B800541F99 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D3FFB45D159BE4B800541F99 /* GravatarHelper-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GravatarHelper-Prefix.pch"; sourceTree = "<group>"; };
+		D3FFB45E159BE4B800541F99 /* GravatarHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GravatarHelper.h; sourceTree = "<group>"; };
+		D3FFB45F159BE4B800541F99 /* GravatarHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GravatarHelper.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D3FFB453159BE4B800541F99 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3FFB45A159BE4B800541F99 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D3FFB44B159BE4B800541F99 = {
+			isa = PBXGroup;
+			children = (
+				D3FFB45B159BE4B800541F99 /* GravatarHelper */,
+				D3FFB458159BE4B800541F99 /* Frameworks */,
+				D3FFB457159BE4B800541F99 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D3FFB457159BE4B800541F99 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D3FFB456159BE4B800541F99 /* libGravatarHelper.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D3FFB458159BE4B800541F99 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D3FFB459159BE4B800541F99 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D3FFB45B159BE4B800541F99 /* GravatarHelper */ = {
+			isa = PBXGroup;
+			children = (
+				D3FFB45E159BE4B800541F99 /* GravatarHelper.h */,
+				D3FFB45F159BE4B800541F99 /* GravatarHelper.m */,
+				D3FFB45C159BE4B800541F99 /* Supporting Files */,
+			);
+			path = GravatarHelper;
+			sourceTree = "<group>";
+		};
+		D3FFB45C159BE4B800541F99 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D3FFB45D159BE4B800541F99 /* GravatarHelper-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D3FFB454159BE4B800541F99 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		D3FFB455159BE4B800541F99 /* GravatarHelper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3FFB463159BE4B800541F99 /* Build configuration list for PBXNativeTarget "GravatarHelper" */;
+			buildPhases = (
+				D3FFB452159BE4B800541F99 /* Sources */,
+				D3FFB453159BE4B800541F99 /* Frameworks */,
+				D3FFB454159BE4B800541F99 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GravatarHelper;
+			productName = GravatarHelper;
+			productReference = D3FFB456159BE4B800541F99 /* libGravatarHelper.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D3FFB44D159BE4B800541F99 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = D3FFB450159BE4B800541F99 /* Build configuration list for PBXProject "GravatarHelper" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D3FFB44B159BE4B800541F99;
+			productRefGroup = D3FFB457159BE4B800541F99 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D3FFB455159BE4B800541F99 /* GravatarHelper */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D3FFB452159BE4B800541F99 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3FFB460159BE4B800541F99 /* GravatarHelper.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D3FFB461159BE4B800541F99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D3FFB462159BE4B800541F99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D3FFB464159BE4B800541F99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/GravatarHelper.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GravatarHelper/GravatarHelper-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		D3FFB465159BE4B800541F99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/GravatarHelper.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GravatarHelper/GravatarHelper-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D3FFB450159BE4B800541F99 /* Build configuration list for PBXProject "GravatarHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3FFB461159BE4B800541F99 /* Debug */,
+				D3FFB462159BE4B800541F99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3FFB463159BE4B800541F99 /* Build configuration list for PBXNativeTarget "GravatarHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3FFB464159BE4B800541F99 /* Debug */,
+				D3FFB465159BE4B800541F99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D3FFB44D159BE4B800541F99 /* Project object */;
+}
